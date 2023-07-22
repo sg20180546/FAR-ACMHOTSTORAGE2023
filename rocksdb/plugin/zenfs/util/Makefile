@@ -28,7 +28,7 @@ $(TARGET).dbg: $(TARGET)
 debug: $(TARGET)
 
 $(TARGET): $(TARGET).cc
-	$(CXX) $(CXXFLAGS) -g -o $(TARGET) $< $(LIBS) $(LDFLAGS)
+	$(CXX) $(CXXFLAGS) -g -o $(TARGET) $< $(LIBS) $(LDFLAGS) -lgflags
 
 clean:
 	$(RM) $(TARGET) $(TARGET).dbg

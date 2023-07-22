@@ -15,3 +15,6 @@ FAR is built as an extension of ZenFS.
 
 3. benchmark.sh
 - EZReset, LZReset, FAR will benchmarked through loop. You can modify T value on line 28.
+
+* fatal: No names found, cannot describe anything
+-> git tag -a 'asdf' -m 'any'
