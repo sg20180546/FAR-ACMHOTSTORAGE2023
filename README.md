@@ -9,12 +9,12 @@ FAR is built as an extension of ZenFS.
 
 1. script/compile.sh
 - Compiling Rocksdb, ZenFS
-
+* fatal: No names found, cannot describe anything
+-> git tag -a 'asdf' -m 'any'
+  
 2. script/init.sh
 - Set NVME ZNS scheduler to mq-deadline, and make ZenFS user level file system on raw ZNS device.
 
 3. benchmark.sh
 - EZReset, LZReset, FAR will benchmarked through loop. You can modify T value on line 28.
 
-* fatal: No names found, cannot describe anything
--> git tag -a 'asdf' -m 'any'
